@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+//page components ie header and sidenav
+import Header from "./header";
+import Sidenav from "@/components/side-nav";
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -16,7 +21,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Header/>
+        <div className="flex gap-4" >
+          <Sidenav/>
+          <div className="w-full overflow-x-auto bg-accent p-1">
+            <div className="sm:h-[calc(99vh-60px)] overflow-auto">
+              <div className="w-full flex justify-center mx-auto overflow-auto h-[calc(100vh-120px)] overflow-y-auto relative">
+                <div className="w-full md:max-w-6xl mt-6">{children}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
     </html>
   );
 }
