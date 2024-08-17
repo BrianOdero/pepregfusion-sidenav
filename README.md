@@ -40,3 +40,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 This is a website that implements sidebar nav. It will require shadcn and lucide-react for the user interface implementation. The web application implememnts the app router functionality of next js implementation simplifying the application routing process
 >>>>>>> b39f06a510e976f1383a00401cc70dc19cce2cb7
 # pepregfusion-sidenav
+# pepregfusion-sidenav
