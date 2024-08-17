@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+=======
+# SIDEBAR-pepregfusion
+This is a website that implements sidebar nav. It will require shadcn and lucide-react for the user interface implementation. The web application implememnts the app router functionality of next js implementation simplifying the application routing process
+>>>>>>> b39f06a510e976f1383a00401cc70dc19cce2cb7
+# pepregfusion-sidenav
